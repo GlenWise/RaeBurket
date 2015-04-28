@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -35,7 +35,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+
     background-size: cover;
 }
 
@@ -70,13 +70,13 @@ h6 {
         font-size: 3em;
     }
 
-    ul.intro-social-buttons > li {
+    ul.intro-shop-button > li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
 
-    ul.intro-social-buttons > li:last-child {
+    ul.intro-shop-button > li:last-child {
         margin-bottom: 0;
     }
 
@@ -130,13 +130,13 @@ h6 {
     margin-bottom: 0;
 }
 
-.banner-social-buttons {
+.banner-shop-button {
     float: right;
     margin-top: 0;
 }
 
 @media(max-width:1199px) {
-    ul.banner-social-buttons {
+    ul.banner-shop-button {
         float: left;
         margin-top: 15px;
     }
@@ -149,13 +149,13 @@ h6 {
         font-size: 3em;
     }
 
-    ul.banner-social-buttons > li {
+    ul.banner-shop-button > li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
 
-    ul.banner-social-buttons > li:last-child {
+    ul.banner-shop-button > li:last-child {
         margin-bottom: 0;
     }
 }
@@ -168,3 +168,73 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+.shop-button {
+	background: transparent;
+	color: #F2F2F2;
+
+	/* CSS Transition */
+	-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-o-transition: background .2s ease-in-out, border .2s ease-in-out;
+	transition: background .2s ease-in-out, border .2s ease-in-out;
+
+}
+
+.shop-button:hover {
+	background: transparent;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+
+.btn-social {
+	background: #fff;
+	color: #000;
+	/* CSS Transition */
+	-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-o-transition: background .2s ease-in-out, border .2s ease-in-out;
+	transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+
+.btn-social:hover {
+	background: transparent;
+	
+	
+}
+
+.navbar-brand,
+.navbar-nav{
+	font-size:16px;
+	background: #fff;
+    height: 60px;
+    
+}
+.navbar {
+	background: #fff;
+}
+
+.logo-big {
+	width: 80%;
+}
+
+.section-contact .address-row {
+  display: table;
+  width: 100%;
+}
+.section-contact .address-sign {
+  display: table-cell;
+  width: 30px;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+.section-contact .address-info {
+  display: table-cell;
+}
+
