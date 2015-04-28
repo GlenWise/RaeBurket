@@ -70,6 +70,17 @@ body {
     color: #333;
 }
 
+.navbar-brand,
+.navbar-nav{
+    font-size:16px;
+    background: #fff;
+    height: 60px;
+    
+}
+.navbar {
+    background: #fff;
+}
+
 footer {
     margin: 50px 0;
 }
