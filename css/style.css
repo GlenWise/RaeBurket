@@ -238,3 +238,12 @@ p.copyright {
   display: table-cell;
 }
 
+.contact-section {
+    height: 80%;
+    padding-top: 90px;
+	padding-bottom: 10px;
+    text-align: left;
+    background: #eee;
+	min-height: 750px;
+}
+
