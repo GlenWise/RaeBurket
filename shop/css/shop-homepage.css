@@ -8,6 +8,22 @@ body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+.container {
+    vertical-align: center;
+}
+
+@media (min-width: 992px) {
+    .container {
+        margin-left: 15%;
+    }
+}
+
+@media (min-width: 1050px) {
+    .container {
+        margin-left: 18%;
+    }
+}
+
 .slide-image {
     max-height: 300px;
 }
