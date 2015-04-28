@@ -9,7 +9,24 @@ body {
 }
 
 .thumbnail img {
-    width: 100%;
+    width: 70%;
+
+}
+
+.container {
+	vertical-align: center;
+}
+
+@media (min-width: 992px) {
+    .container {
+        margin-left: 15%;
+    }
+}
+
+@media (min-width: 1050px) {
+    .container {
+        margin-left: 18%;
+    }
 }
 
 .ratings {
@@ -20,6 +37,11 @@ body {
 
 .thumbnail {
     padding: 0;
+}
+
+.well .thumbnail img{
+	width: 300px;
+    height: 140px;
 }
 
 .thumbnail .caption-full {
